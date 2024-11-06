@@ -6,42 +6,41 @@ Motivo:
 Clona el proyecto y tu carpeta de proyecto debe ser parecido a:
 
 	\raptor.zip
-
 	\docker-compose.yml
-
 	\Dockerfile
-
 	\dosbox.conf
-
 	\index.html
-
 	\js-dos.css
-
 	\js-dos.js
-
 	\nginx.conf
-
 	\raptor.jsdos
-
  		\.jsdos
-		
   			\dosbox.conf
-		
   			\jsdos.json
-	
  		\juego_descomprimido (raptor.zip)
 
 --
 Donde:
+
 docker-compose.yml -> Referencia docker-compse up
+
 Dockerfile -> Para compilar en modo --build.
+
 raptor.zip -> puede ser cualquiera, esto sólo para luego descomprimirlo y ser empaquetado denuevo para bundle.jsdos.
+
 index.html -> Lea como empezar en: https://js-dos.com/dos-api.html
+
 raptor.jsdos -> Construya fácilmente en: https://dos.zone/studio-v8/
+
 nginx.conf -> default publicacion en modo web.
+
 dosbox.conf -> template default para usuarios avanzados para q lo construyas en tu juego.
+
 js-dos.css -> V8, Descargado de:  https://v8.js-dos.com/latest/js-dos.css
+
 js-dos.js -> V8, Descargado de: https://v8.js-dos.com/latest/js-dos.js
+
+
 
 NOTA: Puedes editar dosbox.conf con el aplicativo q vayas a iniciar automáticamente, sólo para usuarios avanzados, apoyate en studio-v8.
 
