@@ -4,31 +4,32 @@ Motivo:
 
 --
 Clona el proyecto y tu carpeta de proyecto debe ser parecido a:
-raptor.zip
 
-docker-compose.yml
+	\raptor.zip
 
-Dockerfile
+	\docker-compose.yml
 
-dosbox.conf
+	\Dockerfile
 
-index.html
+	\dosbox.conf
 
-js-dos.css
+	\index.html
 
-js-dos.js
+	\js-dos.css
 
-nginx.conf
+	\js-dos.js
 
-raptor.jsdos
+	\nginx.conf
 
- 	\.jsdos
-	
-  		\dosbox.conf
+	\raptor.jsdos
+
+ 		\.jsdos
 		
-  		\jsdos.json
+  			\dosbox.conf
+		
+  			\jsdos.json
 	
- 	\juego_descomprimido (raptor.zip)
+ 		\juego_descomprimido (raptor.zip)
 
 --
 Donde:
