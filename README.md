@@ -46,21 +46,25 @@ NOTA: Puedes editar dosbox.conf con el aplicativo q vayas a iniciar automáticam
 
 --
 Comando en powershell para compilar el docker (es necesario el servicio de docker iniciado):
+
 	docker-compose up --build
+
 --
 Abra un navegador
-http://localhost:8080
+	http://localhost:8080
 
 No se puede volver a abrir el juego guardado o almenos es de pago la libreria para JS-DOS, lástima!.
+
 --
 Comandos usados dentro del docker, q podrían servir para revisar:
 
 Entrar al docker:
-docker exec -it docker_gamedos-dosbox_game-1 sh
+	docker exec -it docker_gamedos-dosbox_game-1 sh
 
 Revisar el archivo al cual invoca el juego
-cd /usr/share/nginx/html
-vi index.html
+	cd /usr/share/nginx/html
+	vi index.html
+
 --
 Dale play y disfruta del juego! 
 Agradecimientos a mi hermano V.H.T., q me hizo participe de muy niño a éstos juegos. Gracias!
