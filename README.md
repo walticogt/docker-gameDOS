@@ -44,14 +44,16 @@ js-dos.js -> V8, Descargado de: https://v8.js-dos.com/latest/js-dos.js
 
 NOTA: Puedes editar dosbox.conf con el aplicativo q vayas a iniciar automáticamente, sólo para usuarios avanzados, apoyate en studio-v8.
 
---
+-- 
+
 Comando en powershell para compilar el docker (es necesario el servicio de docker iniciado):
 
 	docker-compose up --build
 
 --
 Abra un navegador
-	http://localhost:8080
+
+ 	http://localhost:8080
 
 No se puede volver a abrir el juego guardado o almenos es de pago la libreria para JS-DOS, lástima!.
 
@@ -66,5 +68,7 @@ Revisar el archivo al cual invoca el juego
 	vi index.html
 
 --
+
 Dale play y disfruta del juego! 
+
 Agradecimientos a mi hermano V.H.T., q me hizo participe de muy niño a éstos juegos. Gracias!
