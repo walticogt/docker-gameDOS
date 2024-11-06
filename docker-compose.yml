@@ -1,0 +1,16 @@
+services:
+  dosbox_game:
+    image: nginx:alpine
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - my_bridge_network
+
+networks:
+  my_bridge_network:
+    driver: bridge
